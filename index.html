@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Zen</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+    <script>
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+  apiKey: "AIzaSyCE7LJ1qwp8Pqh_N2QuCxjV3RKnB9VfC_k",
+  authDomain: "multiplayer-game-d9aaa.firebaseapp.com",
+  databaseURL: "https://multiplayer-game-d9aaa-default-rtdb.firebaseio.com",
+  projectId: "multiplayer-game-d9aaa",
+  storageBucket: "multiplayer-game-d9aaa.appspot.com",
+  messagingSenderId: "936033556158",
+  appId: "1:936033556158:web:bfdb4e0609e57e7c5730ef"
+};
+      //add here
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
